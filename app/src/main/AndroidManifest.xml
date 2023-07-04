@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BHMSNotesApp"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name=".Stuff.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".TE.TE_Papers"
+            android:exported="false" />
+        <activity
+            android:name=".TE.TE_Books"
+            android:exported="false" />
+        <activity
+            android:name=".TE.TE_Notes"
+            android:exported="false" />
+        <activity
+            android:name=".SE.SE_Papers"
+            android:exported="false" />
+        <activity
+            android:name=".SE.SE_Books"
+            android:exported="false" />
+        <activity
+            android:name=".SE.SE_Notes"
+            android:exported="false" />
+        <activity
+            android:name=".FE.FE_Papers"
+            android:exported="false" />
+        <activity
+            android:name=".FE.FE_Books"
+            android:exported="false" />
+        <activity
+            android:name=".FE.FE_Notes"
+            android:exported="false" />
+        <activity
+            android:name=".BE.BE_Papers"
+            android:exported="false" />
+        <activity
+            android:name=".BE.BE_Books"
+            android:exported="false" />
+        <activity
+            android:name=".BE.BE_Notes"
+            android:exported="false" />
+        <activity
+            android:name=".Stuff.Ask_forNotes"
+            android:exported="false" />
+        <activity
+            android:name=".Stuff.otherApps"
+            android:exported="false" />
+        <activity
+            android:name=".TE.TE_Between"
+            android:exported="false" />
+        <activity
+            android:name=".BE.BE_Between"
+            android:exported="false" />
+        <activity
+            android:name=".SE.SE_Between"
+            android:exported="false" />
+        <activity
+            android:name=".FE.FE_Between"
+            android:exported="false" />
+
+        <activity android:name=".MainActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".Stuff.Splash_Screen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

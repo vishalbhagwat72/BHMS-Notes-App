@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Stuff.Splash_Screen">
+
+
+    <ImageView
+        android:id="@+id/image22"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="241dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="129dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/architects_daughter"
+        android:gravity="center"
+        android:text="©Vishal Bhagwat"
+        android:textColor="#3E3A3A"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
